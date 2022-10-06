@@ -1,6 +1,6 @@
 # Strings or Bytes? ![Stars](https://img.shields.io/github/stars/Simpson-Computer-Technologies-Research/TextSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/Simpson-Computer-Technologies-Research/TextSearch?label=Watchers)
 
-
+![banner](https://user-images.githubusercontent.com/75189508/194193330-1f29dcee-1c3c-490b-b88b-6eb109c53d3c.png)
 Appending to a String or to a Byte Array, Which is faster?
 
 
