@@ -14,6 +14,28 @@ Appending to a String or to a Byte Array, Which is faster?
 >> Strings Result: (1288890) in 5179652000ns
 ```
 
+# Functions
+
+```go
+// Test Bytes Method
+func TestBytes(n int) {
+    // Perform 'n' iterations
+	for i := 0; i < n; i++ {
+		// Append the string to the bytes array
+		bytes = append(bytes, []byte(fmt.Sprintf("Bytes_: %d", i))...)
+	}
+}
+
+// Test Strings Method
+func TestStrings(n int) {
+	// Perform 'n' iterations
+	for i := 0; i < n; i++ {
+		// Append the string to the str variable
+		str += fmt.Sprintf("String: %d", i)
+	}
+}
+```
+
 # License
 MIT License
 
